@@ -1,0 +1,39 @@
+# Configuration EditorConfig principale
+root = true
+
+# Configuration par défaut pour tous les fichiers
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 2
+
+# Configuration spécifique pour les fichiers Markdown
+[*.md]
+trim_trailing_whitespace = false
+max_line_length = off
+
+# Configuration pour les fichiers JSON (thèmes Oh My Posh)
+[*.json]
+indent_size = 2
+insert_final_newline = true
+
+# Configuration pour les fichiers YAML
+[*.{yml,yaml}]
+indent_size = 2
+
+# Configuration pour les fichiers TOML
+[*.toml]
+indent_size = 2
+
+# Configuration pour les scripts PowerShell
+[*.ps1]
+end_of_line = crlf
+indent_size = 4
+
+# Configuration pour les scripts Shell
+[*.sh]
+end_of_line = lf
+indent_size = 2

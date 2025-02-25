@@ -1,0 +1,20 @@
+# Auto détection des fichiers texte
+* text=auto
+
+# Documents
+*.md text diff=markdown
+*.txt text
+*.json text
+
+# Scripts
+*.sh text eol=lf
+*.ps1 text eol=crlf
+
+# Fichiers de configuration
+*.yaml text
+*.yml text
+*.toml text
+
+# Forcer les fins de ligne LF pour les fichiers spécifiques
+.gitignore text eol=lf
+.gitattributes text eol=lf 
